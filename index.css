@@ -9,7 +9,12 @@ body {font-family: sans-serif;
 .custom-container { width:500px
 }
 
-.carousel-inner > .item > img,
+#searchnav {
+    height: 50%;
+}
+
+.carousel-inner > .item > img, /* durch Beistrich kann ich einer neuen Kategorie dieselben Attribute vergeben (also .carousel inner) durch > vergebe ich das Attribut an das Elememt
+das sich direkt in dem varangeganegen Element befindet*/
 .carousel-inner > .item > a > img { width: 50%;
                   margin: auto;
 }
@@ -17,11 +22,11 @@ body {font-family: sans-serif;
 .container-seite { border-style: solid none none none;
                    border-width: thin;
                    width: 100%;
-                   margin-top: 20px;
+                   margin-top: 10px;
 
 }
 
-.panel-custom { margin: 40px 20px 20px 10px;
+.panel-custom { margin: auto;
                 width: 30%;
                 padding: 0;
 
@@ -44,5 +49,10 @@ table { text-align: left;
 
 .panelfaq {width: 50%;
           margin-left: 25%;
+
+}
+
+#otherinfo {
+    height:100px;
 
 }

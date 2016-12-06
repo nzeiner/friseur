@@ -12,9 +12,8 @@
 
 <!--Navbar!-->
    <nav class="navbar navbar-default navbar-static-top lightblue">
-      <div class="container">
+      <div class="container-fluid">
       <div class="navbar-header">
-
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
@@ -29,7 +28,7 @@
                 <li><a href="#faq">FAQ</a></li>
                   <li><a href="#about">About us</a></li>
                   <li>
-                    <div class="input-group input-group-lg" >
+                    <div class="input-group input-group-lg" id="searchnav" >
                      <input type="text" class="form-control" placeholder="Search">
                      </div>
                    </li>
@@ -38,7 +37,7 @@
       </div>
   </nav>
   <!--Navbar Ende !-->
-<div class="container container-seite">
+<div class="container">
    <br>
   <!--Carousel !-->
    <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -86,15 +85,15 @@
 
      <h2 class="h-categories">Our Services</h2> <br>
        <div class="row">
-         <div class="panel col-sm-4 panel-custom">
+         <div class="panel col-sm-4 panel-custom center-block">
             <div class="panel-heading panel-heading_custom">Panel heading without title</div>
              <img class="panel-image img-responsive center-block" src="http://t06.deviantart.net/wKMCxuaInr0nilSxu6OSyH5QXYw=/300x200/filters:fixed_height(100,100):origin()/pre12/1ea3/th/pre/i/2004/078/8/4/sideshow_bob.jpg"/>
          </div>
-          <div class="panel col-sm-4 panel-custom">
+          <div class="panel col-sm-4 panel-custom center-block">
              <div class="panel-heading panel-heading_custom">Panel heading without title</div>
               <img class="panel-image img-responsive center-block" src="http://t06.deviantart.net/wKMCxuaInr0nilSxu6OSyH5QXYw=/300x200/filters:fixed_height(100,100):origin()/pre12/1ea3/th/pre/i/2004/078/8/4/sideshow_bob.jpg"/>
           </div>
-        <div class="panel col-sm-4 panel-custom">
+        <div class="panel col-sm-4 panel-custom center-block">
            <div class="panel-heading panel-heading_custom">Panel heading without title</div>
             <img class="panel-image img-responsive center-block" src="http://t06.deviantart.net/wKMCxuaInr0nilSxu6OSyH5QXYw=/300x200/filters:fixed_height(100,100):origin()/pre12/1ea3/th/pre/i/2004/078/8/4/sideshow_bob.jpg"/>
         </div>
@@ -106,8 +105,9 @@
      <h2 class="h-categories">Make an Appointment</h2> <br>
 
 <div class="row">
+<br>
        <div class="col-sm-5">
-     <form>
+<form id="Termin">
   <div class="form-group">
 
     <input type="text" class="form-control" id="name" placeholder="First and Last name">
@@ -120,8 +120,9 @@
      <input type="date" class="form-control" id="date" placeholder="Date">
   </div>
 
-  <div class="form-group" >
-     <input type="text" class="form-control" id="date" placeholder="Other info (haircut wishes etc.)">
+  <div class="form-group">
+     <textarea type="text" class="form-control" id="otherinfo" form="Termin" placeholder="Other info...">
+     </textarea>
   </div>
 
 
@@ -172,10 +173,7 @@
           <td>Monday</td>
           <td>8.00-16.00</td
         </tr>
-        <tr>
-          <td>Monday</td>
-          <td>8.00-16.00</td
-        </tr>
+
       </tbody>
     </table>
 </div>
@@ -248,7 +246,7 @@
 
   </div>
   <div class="col-sm-2">
-  <img src="https://image.spreadshirtmedia.net/image-server/v1/compositions/26383457/views/1,width=300,height=300,appearanceId=1,version=1464248130/kamm-schere-comb-scissors-crossed-1c-langarmshirts-frauen-langarmshirt.jpg" class="img-responsive"/>
+  <img src="https://image.spreadshirtmedia.net/image-server/v1/compositions/26383457/views/1,width=300,height=300,appearanceId=1,version=1464248130/kamm-schere-comb-scissors-crossed-1c-langarmshirts-frauen-langarmshirt.jpg" class="img-responsive center-block"/>
 
   </div>
   <div class="col-sm-5">
